@@ -9,15 +9,15 @@ body:
       label: "Description"
       description: "Provide a clear and concise description of what the feature is."
       placeholder: "Write your description here..."
-    validation:
+    validations:
       required: true
   - type: textarea
-    id: Reason
+    id: reason
     attributes:
       label: "Reason"
       description: "Why is this feature needed? What problem does it solve?"
       placeholder: "Write your reason here..."
-    validation:
+    validations:
       required: true
   - type: textarea
     id: implementation
@@ -25,7 +25,7 @@ body:
       label: "Possible Implementation"
       description: "Not required, but suggest an idea for implementing said feature."
       placeholder: "Write your suggestion here..."
-    validation:
+    validations:
       required: false
   - type: textarea
     id: requirements
@@ -38,5 +38,5 @@ body:
         - [ ] Requirement 1
         - [ ] Requirement 2
         - [ ] etc...
-    validation:
+    validations:
       required: true
