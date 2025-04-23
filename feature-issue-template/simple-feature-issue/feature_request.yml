@@ -1,0 +1,42 @@
+name: "Feature Request"
+description: "Suggest a new feature or enhancement"
+title: "[FEAT] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Provide a clear and concise description of what the feature is."
+      placeholder: "Write your description here..."
+    validation:
+      required: true
+  - type: textarea
+    id: Reason
+    attributes:
+      label: "Reason"
+      description: "Why is this feature needed? What problem does it solve?"
+      placeholder: "Write your reason here..."
+    validation:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Possible Implementation"
+      description: "Not required, but suggest an idea for implementing said feature."
+      placeholder: "Write your suggestion here..."
+    validation:
+      required: false
+  - type: textarea
+    id: requirements
+    attributes:
+      label: "Requirements"
+      description: |
+        List any specific requirements or conditions this feature must meet.
+        You can write your own checklist using `- [ ] ` syntax.
+      default: |
+        - [ ] Requirement 1
+        - [ ] Requirement 2
+        - [ ] etc...
+    validation:
+      required: true
