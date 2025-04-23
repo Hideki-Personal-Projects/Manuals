@@ -1,0 +1,46 @@
+name: "機能リクエスト"
+description: "追加してほしい機能や改善があれば書いてください"
+title: "[FEAT] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "概要"
+      description: "この機能が何であるか、簡潔に説明してください。"
+      placeholder: "ここに機能の説明を書いてください..."
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "理由"
+      description: "なぜこの機能が必要なのか、どんな問題を解決するのかを説明してください。"
+      placeholder: "ここに理由を書いてください..."
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "実装のアイデア"
+      description: "任意ですが、実装方法についての提案があれば記入してください。"
+      placeholder: "ここに提案内容の説明を書いてください..."
+    validations:
+      required: false
+  - type: textarea
+    id: requirements
+    attributes:
+      label: "要件"
+      description: |
+        この機能が満たすべき要件や条件を記入してください。
+        `- [ ] ` この形式でチェックリストを自由に作成してください。
+
+        Example:
+        - [ ] 要件 1
+        - [ ] 要件 2
+        - [ ] など...
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
