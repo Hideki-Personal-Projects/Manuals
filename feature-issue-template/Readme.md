@@ -6,19 +6,19 @@ A set of feature issue templates example to make issue tracking easier and more 
 ## Simple Feature Issue
 
 ```
-### Description
+## Description
 
 A clear and concise description of what the feature is.
 
-### Reason
+## Reason
 
 Why is this feature needed? What problem does it solve?
 
-### Possible Implementation
+## Possible Implementation
 
 Not required, but suggest an idea for implementing said feature
 
-### Requirement
+## Requirement
 
 - [ ] List any specific requirements or conditions this feature must meet.
 - [ ] etc
