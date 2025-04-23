@@ -1,4 +1,9 @@
-<!--- Provide a general summary of the issue in the Title above -->
+---
+name: Feature Request
+about: Describe the feature you would like added
+title: "[FEAT] "
+labels: ["enhancement"]
+---
 
 ## Description
 
@@ -17,4 +22,4 @@
 <!-- List any specific requirements or conditions this feature must meet. -->
 
 - [ ] Requirement 1
-- [ ] etc
+- [ ] Requirement 2
