@@ -34,7 +34,12 @@ body:
       description: |
         List any specific requirements or conditions this feature must meet.
         You can write your own checklist using `- [ ] ` syntax.
-      default: |
+
+        Example:
+        - [ ] Requirement 1
+        - [ ] Requirement 2
+        - [ ] etc...
+      placeholder: |
         - [ ] Requirement 1
         - [ ] Requirement 2
         - [ ] etc...
